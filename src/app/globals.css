@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.backgroundImage{
+    background: url(/public/section4.jpg);
+
+}
