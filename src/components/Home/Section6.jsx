@@ -1,16 +1,7 @@
-export default function Section4() {
+export default function Section6() {
 	return (
-		<section className="bg-pink-300 py-28 h-screen relative">
-			<div className=" absolute inset-0 flex justify-center">
-				<div className=" flex flex-col gap-4 p-7">
-					<ul className="flex  gap-10 ">
-						<li>Your Heart</li>
-						<li>Your Skin </li>
-						<li>Your Body</li>
-					</ul>
-					<hr />
-				</div>
-			</div>
+		<section className="bg-pink-300 py-28 h-screen">
+			<div className=" absolute inset-0 flex justify-center"></div>
 			<div className="max-w-xl">
 				<div className="bg-red-500 flex flex-col items-start gap-10 py-28 px-12">
 					<h1 className="text-5xl text-white">Your Health</h1>
