@@ -10,7 +10,7 @@ export default function Section11() {
 					<p className="text-orange-600 text-xs">{`// kontakt`}</p>
 					<div>
 						<h1 className=" font-semi  text-2xl">
-							<span className="px-2 py-1 bg-orange-600 rounded-lg ">Bereit</span> fur deine neue website ?
+							<span className="px-2 py-1 bg-orange-600 rounded-lg ">Bereit</span> {`fur deine neue website ?`}
 						</h1>
 					</div>
 					<p>Buche dir ein kostenloses Estgesprach, oder schreib mir eine Mail.</p>
