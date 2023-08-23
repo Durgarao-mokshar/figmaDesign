@@ -6,8 +6,8 @@ export default function Section9() {
 					<div className="text-black lg:text-5xl md:text-4xl text-3xl font-bold">Industries</div>
 					<div className="">
 						<p className=" text-sm">
-							Our clients come from a kalidoscopic of industries, and that's not all - our curious nature keeps us excited about venturing into
-							unexplored terrains
+							{`Our clients come from a kalidoscopic of industries, and that's not all - our curious nature keeps us excited about venturing into
+							unexplored terrains`}
 						</p>
 					</div>
 				</div>
