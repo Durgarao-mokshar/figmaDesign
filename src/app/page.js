@@ -7,6 +7,10 @@ import Section5 from '@/components/Home/Section5'
 import Section6 from '@/components/Home/Section6'
 import Section7 from '@/components/Home/Section7'
 import Section8 from '@/components/Home/Section8'
+import Section9 from '@/components/Home/Section9'
+import Faq from '@/components/Home/Faq'
+import Section11 from '@/components/Home/Section11'
+import Footer from '@/components/Home/Footer'
 export default function Home() {
 	return (
 		<>
@@ -18,6 +22,10 @@ export default function Home() {
 			<Section6 />
 			<Section7 />
 			<Section8 />
+			<Section9 />
+			<Faq />
+			<Section11 />
+			<Footer />
 		</>
 	)
 }
