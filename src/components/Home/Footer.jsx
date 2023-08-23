@@ -5,7 +5,7 @@ export default function Footer() {
 			<div className="p-4 pt-16 max-w-7xl mx-auto w-full h-full flex justify-between items-start flex-wrap ">
 				<div className="w-full max-w-md  py-4">
 					<div className=" ">
-						<p className="text-4xl max-w-xs font-bold ">Let's work Togehter</p>
+						<p className="text-4xl max-w-xs font-bold ">{`Let's work Togehter`}</p>
 					</div>
 				</div>
 				<div className="flex justify-between w-full h-full max-w-lg py-4">
