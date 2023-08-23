@@ -7,7 +7,7 @@ export default function Section11() {
 				</div>
 
 				<div className="flex flex-col gap-6 justify-center text-white max-w-md mx-auto ">
-					<p className="text-orange-600 text-xs">// kontakt</p>
+					<p className="text-orange-600 text-xs">{`// kontakt`}</p>
 					<div>
 						<h1 className=" font-semi  text-2xl">
 							<span className="px-2 py-1 bg-orange-600 rounded-lg ">Bereit</span> fur deine neue website ?
