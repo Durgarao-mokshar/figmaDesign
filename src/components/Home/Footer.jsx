@@ -98,7 +98,7 @@ export default function Footer() {
 						</p>
 					</div>
 				</div> */}
-				<div className="p-4">
+				<div className="p-4 py-10">
 					<a href="#" className="text-white bg-gradient-to-r from-red-500 to-indigo-600 py-2 px-4 inline-block rounded-lg">
 						Start a project
 					</a>
