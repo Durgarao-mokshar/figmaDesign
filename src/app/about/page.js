@@ -1,9 +1,12 @@
 import Image from 'next/image'
+import AboutSection from '@/components/About/AboutSection1'
+import AboutSection2 from '@/components/About/AboutSection2'
 
 export default function About() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2>about page</h2>
-    </main>
-  )
+	return (
+		<>
+			<AboutSection />
+			<AboutSection2 />
+		</>
+	)
 }
