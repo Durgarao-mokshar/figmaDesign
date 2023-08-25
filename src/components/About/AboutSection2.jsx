@@ -1,6 +1,7 @@
 export default function AboutSection2() {
 	return (
-		<section className="max-w-8xl mx-auto py-24 px-4">
+		<section className=" bg-black text-white">
+			<div className="max-w-8xl mx-auto py-24 px-4">
 			<div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-24 items-start ">
 				<div className="max-w-xl flex flex-col gap-14 pt-9 sticky top-0">
 					<h1 className="text-6xl  text-start"> Go Further</h1>
@@ -49,7 +50,8 @@ export default function AboutSection2() {
 						</p>
 					</div>
 				</div>
-			</div>
+				</div>
+				</div>
 		</section>
 	)
 }

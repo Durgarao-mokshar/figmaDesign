@@ -1,6 +1,7 @@
 export default function AboutSection() {
 	return (
-		<section className="max-w-8xl mx-auto py-24 px-4 ">
+		<section className=" bg-black text-white w-full">
+			<div className="max-w-8xl mx-auto py-24 px-4">
 			<div className=" lg:px-12 md:px-8">
 				<div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-10">
 					<h1 className="lg:text-6xl md:text-4xl text-3xl max-w-lg">{`We're building better healthcare.`}</h1>
@@ -17,7 +18,8 @@ export default function AboutSection() {
 						</div>
 					</div>
 				</div>
-			</div>
+				</div>
+				</div>
 		</section>
 	)
 }
