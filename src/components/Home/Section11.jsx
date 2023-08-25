@@ -1,6 +1,6 @@
 export default function Section11() {
   return (
-    <section className=" bg-blue-950 py-20 ">
+    <section className=" bg-blue-950 py-20 px-5">
       <div className="max-w-8xl mx-auto grid lg:grid-cols-3 items-center gap-20 md:grid-cols-3 grid-cols-1 ">
         <div className=" max-w-md mx-auto">
           <img src="./fruits.jpg" alt="fruits" className="object-contain" />
