@@ -1,61 +1,61 @@
-import Link from 'next/link'
+import Link from "next/link";
 export default function Footer() {
-	return (
-		<footer className=" w-full bg-black text-white">
-			<div className="p-4 pt-16 max-w-7xl mx-auto w-full h-full flex justify-between items-start flex-wrap ">
-				<div className="w-full max-w-md  py-4">
-					<div className=" ">
-						<p className="text-4xl max-w-xs font-bold ">{`Let's work Togehter`}</p>
-					</div>
-				</div>
-				<div className="flex justify-between w-full h-full max-w-lg py-4">
-					<div className="w-full h-full flex flex-col items-start justify-start text-left">
-						<div className="text-xl font-semibold pb-4 w-28">
-							<p>Menu</p>
-						</div>
-						<div className=" w-28">
-							<Link href="/">
-								<p>Home</p>
-							</Link>
-						</div>
-						<div className=" w-28">
-							<Link href="/about">
-								<p>About Us</p>
-							</Link>
-						</div>
-						<div className=" w-28">
-							<Link href="/ourprocess">
-								<p>Our Process</p>
-							</Link>
-						</div>
-						<div className=" w-28">
-							<Link href="/work">
-								<p>Work</p>
-							</Link>
-						</div>
-					</div>
-					<div className="w-full h-full flex flex-col items-end justify-start text-left">
-						<div className=" w-36">
-							<p className="text-xl pb-4 font-semibold">Contact</p>
-						</div>
-						<div className=" w-36">
-							<p>4th Floor, Gowri Arcade,</p>
-						</div>
-						<div className=" w-36">
-							<p>Jayabheri Enclave,</p>
-						</div>
-						<div className=" w-36">
-							<p> Gachibowli, Hyderabad, </p>
-						</div>
+  return (
+    <footer className=" w-full bg-black text-white">
+      <div className="p-4 pt-16 max-w-7xl mx-auto w-full h-full flex justify-between items-start flex-wrap ">
+        <div className="w-full max-w-md  py-4">
+          <div className=" ">
+            <p className="text-4xl max-w-xs font-bold ">{`Let's work Togehter`}</p>
+          </div>
+        </div>
+        <div className="flex justify-between w-full h-full max-w-lg py-4">
+          <div className="w-full h-full flex flex-col items-start justify-start text-left">
+            <div className="text-xl font-semibold pb-4 w-28">
+              <p>Menu</p>
+            </div>
+            <div className=" w-28">
+              <Link href="/">
+                <p>Home</p>
+              </Link>
+            </div>
+            <div className=" w-28">
+              <Link href="/about">
+                <p>About Us</p>
+              </Link>
+            </div>
+            <div className=" w-28">
+              <Link href="/ourprocess">
+                <p>Our Process</p>
+              </Link>
+            </div>
+            <div className=" w-28">
+              <Link href="/work">
+                <p>Work</p>
+              </Link>
+            </div>
+          </div>
+          <div className="w-full h-full flex flex-col items-end justify-start text-left">
+            <div className=" w-36">
+              <p className="text-xl pb-4 font-semibold">Contact</p>
+            </div>
+            <div className=" w-36">
+              <p>4th Floor, Gowri Arcade,</p>
+            </div>
+            <div className=" w-36">
+              <p>Jayabheri Enclave,</p>
+            </div>
+            <div className=" w-36">
+              <p> Gachibowli, Hyderabad, </p>
+            </div>
 
-						<div className=" w-36">
-							<p>Telangana - 500032</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="flex justify-between items-center flex-wrap max-w-7xl mx-auto w-full h-full text-[#0F3B53]">
-				{/* <div className="p-4 w-full h-full max-w-sm">
+            <div className=" w-36">
+              <p>Telangana - 500032</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-between items-center flex-wrap max-w-7xl mx-auto w-full h-full text-[#0F3B53]">
+        {/* <div className="p-4 w-full h-full max-w-sm">
 					<div className="text-xl font-semibold"> us on socials</div>
 					<div className="flex items-center py-4 max-w-sm">
 						<a href="https://www.facebook.com/MoksharOfficial" target="_blank" rel="noreferrer">
@@ -98,12 +98,15 @@ export default function Footer() {
 						</p>
 					</div>
 				</div> */}
-				<div className="p-4 py-10">
-					<a href="#" className="text-white bg-gradient-to-r from-red-500 to-indigo-600 py-2 px-4 inline-block rounded-lg">
-						Start a project
-					</a>
-				</div>
-			</div>
-		</footer>
-	)
+        <div className="p-4 py-10">
+          <a
+            href="#"
+            className="text-white bg-gradient-to-r from-red-500 to-indigo-600 py-2 px-4 inline-block rounded-lg"
+          >
+            Start a project
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 }
