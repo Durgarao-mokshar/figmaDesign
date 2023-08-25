@@ -8,7 +8,7 @@ export default function Team() {
 
         <div className=" max-w-xs py-10">
           <img
-            src="https://bditto.com/images/About_Us/Team/SivaDantuluri.jpg"
+            src="./SivaDantuluri.jpg"
             className="rounded-md"
           />
         </div>
